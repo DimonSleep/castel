@@ -40,6 +40,8 @@ const start = async (): Promise<void> => {
     return
   }
 
+
+
   const nextApp = next({
     dev: process.env.NODE_ENV !== 'production',
   })
